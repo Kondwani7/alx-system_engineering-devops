@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Run nginx as nginx
+# Run Nginx as Nginx
 pkill apache2
 sed -i 's/80 default_server/8080 default_server/' /etc/nginx/sites-available/default
 chown nginx:nginx /etc/nginx/nginx.conf
